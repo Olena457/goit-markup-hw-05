@@ -525,7 +525,6 @@ p {
 }
 /* modal form-reviews-------------------- */
 .modal {
-  display: flex;
   padding-top: 72px;
   padding-bottom: 24px;
   padding-left: 24px;
@@ -558,6 +557,7 @@ p {
   fill: #2e2f42;
 }
 .modal-caption {
+  margin-bottom: 16px;
   width: 360px;
   color: #2e2f42;
   text-align: center;
