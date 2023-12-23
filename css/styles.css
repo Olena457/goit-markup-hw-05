@@ -506,6 +506,10 @@ p {
   fill: #fff;
   margin-left: 16px;
 }
+.subscribe-form-btn:focus,
+.subscribe-form-btn:hover {
+  background-color: #404bbf;
+}
 /* backdrop ----------------------------*/
 .backdrop {
   position: fixed;
@@ -712,3 +716,7 @@ p {
 }
 /* .modal-form {
 } */
+.modal-send:hover,
+.modal-send:focus {
+  background-color: #404bbf;
+}
